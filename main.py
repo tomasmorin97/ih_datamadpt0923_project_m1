@@ -37,11 +37,11 @@ def argument_parser():
 # Pipeline execution
 
 if __name__ == '__main__':
-    if argument_parser().function == 'mult':
+    if argument_parser().function == 'table':
         n1 = enter_number('Enter a number: ')
         n2 = enter_number('Enter another number: ')
         result = multiply_function(n1, n2)
-    elif argument_parser().function == 'sum':
+    elif argument_parser().function == 'location':
         n1 = enter_number('Enter a number: ')
         n2 = enter_number('Enter another number: ')
         result = sum_function(n1, n2)

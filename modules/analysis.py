@@ -44,13 +44,11 @@ def distance_min(df, function):
     return df_min_distance
 
 # BiciPark
-
 # Mismas funciones que en bicimad
 
 # LIMPIEZA DE DATOS FINALES
 # BiciMAD
-
-#Seleccionamos las collumnas relevantes para el ejercicio y las renombras
+#Seleccionamos las columnas relevantes para el ejercicio y las renombras
 
 def column_cleaning (df, column_list, column_rename):
     df.rename(columns = column_rename)

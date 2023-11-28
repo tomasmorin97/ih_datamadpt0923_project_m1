@@ -1,34 +1,35 @@
 
-Welcome to the world of sustainable mobility. We will analyze two urban initiatives: Bicimad and Biciparkd. Our goal is to facilitate communications between sports centers and bike parks and to understand how these bicycle transportation options contribute to the sustainability of our city and improve the quality of life of its inhabitants.
+Step into the realm of sustainable mobility. In this exploration, we'll delve into two urban endeavors: Bicimad and Biciparkd. Our aim is to foster seamless communication between sports facilities and bike parks while comprehending the role these bicycle transportation alternatives play in enhancing our city's sustainability and the well-being of its residents.
 
-Both proposals offer innovative solutions to encourage the use of bicycles as a means of transportation in urban environments.
+Both initiatives present avant-garde solutions designed to promote bicycle usage as a viable mode of transport within urban landscapes.
 
 ## 🙋 Name
 Bicimad & Bicipark Application
 
 ## 👶 Status
+Ironhack Data Analytics Module 1 Project
 
 ## 🏃 One-liner
-Explore the world of urban cycling with Bicimad & Bicipark Explorer a project to analyze and visualize data from two prominent bike-sharing initiatives.
+Embark on a journey through urban cycling with Bicimad & Bicipark Explorer, a project dedicated to the analysis and visualization of data from two leading bike-sharing initiatives.
 
 ## 💻 Technology stack
-import pandas as pd
-import requests
-import modules.extraction as ex
-import modules.analysis as an
-import modules.argparse as arg
-from shapely.geometry import Point
-import geopandas as gpd
-import argparse
-from fuzzywuzzy import process
+- import pandas as pd
+- import requests
+- import modules.extraction as ex
+- import modules.analysis as an
+- import modules.argparse as arg
+- from shapely.geometry import Point
+- import geopandas as gpd
+- import argparse
+- from fuzzywuzzy import process
 
 
 ## 💥 Core technical concepts and inspiration
-The objective of Bicimad & Bicipark Explorer is to provide a complete overview of bicycle parking near our sports facilities, allowing users to compare and contrast the availability of Bicimad and Bicipark. The project is inspired by the growing importance of sustainable urban mobility and the need for instant information on this data.
+Bicimad & Bicipark Explorer aims to offer a comprehensive snapshot of bicycle parking facilities around our sports centers, empowering users to compare the availability of Bicimad and Bicipark. The project is driven by the increasing significance of sustainable urban mobility and the demand for immediate access to relevant data.
 
-We use geolocation techniques to provide accurate results based on the user's location. This allows us to identify and visualize the nearest sports facilities and bike stations in real time.
+Utilizing geolocation techniques, we ensure precise results tailored to the user's location. This enables the real-time identification and visualization of the closest sports facilities and bike stations.
 
-We implement fuzzy matching algorithms to improve search capabilities. These algorithms allow us to find approximate matches between text strings, making it easier to identify locations even when there are typos or differences in naming.
+Our implementation incorporates argparse and fuzzy matching algorithms to enhance search capabilities. These algorithms facilitate the discovery of approximate matches between text strings, simplifying the identification of locations, even in the presence of typos or naming variations.
 
 ## 🔧 Configuration
 Requirements
@@ -71,7 +72,7 @@ pip install -r requirements.txt
 - Run the Application:
 Execute the main script to run the Bicimad & Bicipark Explorer:
 ```sh
-python script.py -a [application] -l [ocation]
+python script.py -t [type] -l [location]
 ```
 ## 🙈 Usage
 Parameters
@@ -122,7 +123,6 @@ Handle additional user input.
 
 ## ℹ️ Further Info
 
-Credits: 
+Credits:
 - Open Data sources for Bicimad and Bicipark.
-
 - Open data sources for sports centers 
